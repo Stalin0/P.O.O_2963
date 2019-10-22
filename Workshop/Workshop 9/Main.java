@@ -50,30 +50,6 @@ public class Main{
         }
 
     }
-    public static void cedula(String dni) {
-        int ID, add = 0, acum, subtract = 0;
-        for (int i = 0; i < dni.length() - 1; i++) {
-            ID = Integer.parseInt(dni.charAt(i) + "");
-            if (i % 2 == 0) {
-                ID = ID * 2;
-                if (ID > 9) {
-                    ID = ID - 9;
-                }
-            }
 
-            add = add + ID;
-        }
-        if (add % 10 != 0) {
-            acum = ((add / 10) + 1) * 10;
-            subtract = acum - add;
-        }
-        int last = Integer.parseInt(dni.charAt(9) + " ");
-
-        if (last == subtract) {
-            System.out.println("The DNI does exist");
-        } else {
-            System.out.println("The DNI does not exist");
-        }
-    }
-    
+     
 }
