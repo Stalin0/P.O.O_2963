@@ -2,18 +2,30 @@ package ec.edu.espe.demo.rest;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ec.edu.espe.demo.util.Person;
+import ec.edu.espe.demo.dao.IPerson;
+import ec.edu.espe.demo.imp.Student;
+import ec.edu.espe.demo.imp.Teacher;
+
 
 @RestController
 @RequestMapping("api/demo")
 public class DemoRestController {
+    IPerson person = new Student();
+    IPerson person2 = new Teacher();
+    @GetMapping("/student")
+    public String getStudent(){
+        return person.sayHello();
+    }
+    @GetMapping("/teacher")
+    public String getTeacher(){
+        return person2.sayHello();
+    }
 
-    @GetMapping
+
+    /*@GetMapping
     public String hello(){
         return "HOLA MUNDO SOY EL SERVICIO REST";
     }
@@ -25,6 +37,14 @@ public class DemoRestController {
     public Person name(@PathVariable String name,@PathVariable int age, @PathVariable String dni ){
         return new Person(name, age, main(dni));
     }
+    @PostMapping()
+    public Person person(@RequestBody Person per){
+        per.setAge(50);
+        
+        
+        return per;
+    }
+    
 
     public  String main(String dni) {
        
@@ -56,7 +76,7 @@ public class DemoRestController {
             return "la cedula es incorrecta";
         }
         
-    } 
+    }*/
 
     
 }
