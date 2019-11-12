@@ -9,9 +9,11 @@ import ec.espe.edu.model.Movie;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+
 /**
  *
  * @author STALIN RIVERA
+ * 
  */
 public class MovieManage {
 
