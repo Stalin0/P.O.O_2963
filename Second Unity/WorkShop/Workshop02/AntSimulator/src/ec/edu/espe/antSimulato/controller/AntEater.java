@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.controller;
+package ec.edu.espe.antSimulato.controller;
 
 /**
  *
- * @author Usuario
+ * @author Labs-DCCO
  */
 public class AntEater {
-    private Cell position;
-    private int antEatenCounter;
-    private int runCounter;
-    private enum state;
+    
 }
