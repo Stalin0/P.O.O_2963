@@ -9,7 +9,7 @@ import ec.edu.espe.antSimulato.controller.Cell;
 
 /**
  *
- * @author STALIN RIVERA
+ * @author STALIN RIVERA y JORGE RAMOS
  */
 public class Nest {
 int nidoh = 45;

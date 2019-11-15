@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.antSimulato.controller;
+package ec.edu.espe.model.Accounts;
+
+import java.util.Date;
 
 /**
  *
- * @author STALIN RIVERA
+ * @author Usuario
  */
-public class Food {
-
-	private int amount;
-        
-
+public class Account {
+    private String label;
+    private String createOndate;
+    private Date lastModifiedOn;
 }

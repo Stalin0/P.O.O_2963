@@ -7,7 +7,7 @@ package ec.edu.espe.antSimulato.controller;
 
 /**
  *
- * @author STALIN RIVERA
+ * @author STALIN RIVERA y JORGE RAMOS
  */
 public class FoodPile {
 

@@ -15,7 +15,7 @@ import java.util.List;
  * @author STALIN RIVERA
  */
 public class Cell {
-int numh = 10;
+int numh = 1000;
 	private int row;
 	private int col;
 

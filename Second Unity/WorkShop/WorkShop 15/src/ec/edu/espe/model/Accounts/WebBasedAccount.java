@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.antSimulato.controller;
+package ec.edu.espe.model.Accounts;
 
 /**
  *
- * @author STALIN RIVERA
+ * @author Usuario
  */
-public class Food {
+public class WebBasedAccount extends Account {
+    
+    private String url;
+    private String LastAccessedDate;
 
-	private int amount;
-        
 
+    
+    
 }

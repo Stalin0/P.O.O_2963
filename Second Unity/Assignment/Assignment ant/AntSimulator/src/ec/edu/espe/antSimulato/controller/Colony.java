@@ -11,7 +11,7 @@ package ec.edu.espe.antSimulato.controller;
  */
 public class Colony {
 
-    public int numh = 5;
+    public int numh = 100;
 
     public void Run() {
         // TODO - implement Colony.Run
