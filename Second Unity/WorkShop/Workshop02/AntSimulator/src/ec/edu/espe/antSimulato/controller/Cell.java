@@ -6,7 +6,7 @@
 package ec.edu.espe.antSimulato.controller;
 
 
-import java.util.ArrayList;
+
 
 
 /**
@@ -24,6 +24,12 @@ public class Cell {
 
     public void getAnts() {
         Arraylist<Ant> antList = new ArrayList<>;
+    }
+
+    private static class ArrayList {
+
+        public ArrayList() {
+        }
     }
 
 }

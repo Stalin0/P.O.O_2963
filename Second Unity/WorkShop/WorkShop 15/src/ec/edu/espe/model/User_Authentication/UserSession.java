@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package ec.edu.espe.model.User_Authentication;
+import ec.edu.espe.model.KeyClass.User;
 
 /**
  *
@@ -11,7 +12,7 @@ package ec.edu.espe.model.User_Authentication;
  */
 public class UserSession {
     private User user;
-    public void SetUser(user){
+    public void SetUser(User user){
         
     }
     public void ClearUser(){

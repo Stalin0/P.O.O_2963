@@ -4,13 +4,18 @@
  * and open the template in the editor.
  */
 package ec.edu.espe.model.User_Authentication;
-
+import ec.edu.espe.model.Accounts.Username;
 /**
  *
  * @author Usuario
  */
 public class SetActiveUser {
-    public void FindUser(Username ){
+
+    /**
+     *
+     * @param username
+     */
+    public void FindUser(Username username){
         
     }
     
