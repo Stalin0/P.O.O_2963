@@ -3,13 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.model.KeyClass;
+package ec.edu.espe.model;
 
 /**
  *
  * @author Usuario
  */
-public class TrustedFriend extends User {
-    private String leabel;
+public class Float {
+    public static void Float(){
+        float decimal = 2.63f;
+        System.out.println("The decimal number: " + decimal);
+        
+        
+    }
     
 }

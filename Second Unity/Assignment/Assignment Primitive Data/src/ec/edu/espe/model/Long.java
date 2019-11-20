@@ -3,13 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.model.KeyClass;
+package ec.edu.espe.model;
 
 /**
  *
  * @author Usuario
  */
-public class TrustedFriend extends User {
-    private String leabel;
+public class Long {
+    public static void Long(){
+        long entero = 474232323;
+        System.out.println("The whole number is: " + entero);
+        
+    }
     
 }

@@ -7,11 +7,6 @@ package ec.edu.espe.model.User_Authentication;
 
 import ec.edu.espe.model.Password_Generator.Password;
 
-
-
-
-
-
 /**
  *
  * @author Usuario
@@ -23,8 +18,9 @@ public class User {
     private String emailAdress;
     private boolean isActive;
     
-    public void CheckPassword(Password pwd){
+    public boolean CheckPassword(String Password){  
         
+        return false;
     } 
     public void GetTrustFriendsGroups(){
         

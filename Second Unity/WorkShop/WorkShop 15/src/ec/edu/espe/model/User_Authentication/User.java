@@ -8,10 +8,6 @@ package ec.edu.espe.model.User_Authentication;
 import ec.edu.espe.model.Password_Generator.Password;
 
 
-
-
-
-
 /**
  *
  * @author Usuario

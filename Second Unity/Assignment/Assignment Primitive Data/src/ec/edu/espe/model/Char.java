@@ -3,13 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.model.KeyClass;
+package ec.edu.espe.model;
 
 /**
  *
  * @author Usuario
  */
-public class TrustedFriend extends User {
-    private String leabel;
+public class Char {
+    public static void Char(){
+        char caracter = 'A';
+        
+        System.out.println("The caracter is: " + caracter);
+        
+        
+    }
     
 }

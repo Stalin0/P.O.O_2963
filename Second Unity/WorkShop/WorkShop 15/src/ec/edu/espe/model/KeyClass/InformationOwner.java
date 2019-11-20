@@ -11,4 +11,5 @@ package ec.edu.espe.model.KeyClass;
  */
 public class InformationOwner extends User {
     
+    
 }

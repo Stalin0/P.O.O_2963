@@ -12,14 +12,25 @@ import ec.edu.espe.model.KeyClass.User;
  */
 public class UserSession {
     private User user;
-    public void SetUser(User user){
-        
+
+    public UserSession(User user) {
+        this.user = user;
     }
+
+    public UserSession() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
+  
     public void ClearUser(){
         
     }
-    public void GetCurrentUser(){
-        
-    }
-    
+   
 }

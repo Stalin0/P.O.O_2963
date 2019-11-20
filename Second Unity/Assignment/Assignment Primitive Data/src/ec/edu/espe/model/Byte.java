@@ -3,13 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.model.KeyClass;
+package ec.edu.espe.model;
 
 /**
  *
  * @author Usuario
  */
-public class TrustedFriend extends User {
-    private String leabel;
+public class Byte {
+    public static void Byte(){
+      byte entero = 12;
+        System.out.println("El numero entero: " + entero);
+    }
+    
+   
+    
     
 }
