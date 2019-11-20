@@ -11,10 +11,15 @@ package ec.edu.espe.model;
  */
 public class Boolean {
     public static void Boolean(){
-        boolean decision = true;
+        try {
+            boolean decision = true;
         boolean des = false;
         System.out.println("I am the best: " + decision);
         System.out.println("I am a good extreme programmer: " + des);
+            
+        } catch (Exception e) {
+        }
+        
     }
     
 }

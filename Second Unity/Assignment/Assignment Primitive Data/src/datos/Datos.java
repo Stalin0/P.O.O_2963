@@ -28,8 +28,8 @@ public class Datos {
 
         Scanner read = new Scanner(System.in);
         int opcion;
-
-        do{
+        try {
+            do{
             
         
         System.out.println("****Menu de opciones**");
@@ -102,6 +102,11 @@ public class Datos {
         }
         
         }while(opcion !=9);
+            
+        } catch (Exception e) {
+        }
+
+        
     }
 
     
