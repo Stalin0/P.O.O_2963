@@ -6,6 +6,7 @@
 package ec.edu.espe.model.Accounts;
 
 import java.util.Date;
+import ec.edu.espe.model.Accounts.Username;
 
 /**
  *
@@ -15,4 +16,7 @@ public class Account {
     private String label;
     private String createOndate;
     private Date lastModifiedOn;
+    
+    private Password[] password;
+    private Username[] userName;
 }
