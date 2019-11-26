@@ -17,9 +17,9 @@ import static org.junit.Assert.*;
  *
  * @author Usuario
  */
-public class SubtractDateTest {
+public class AgeLibraryTest {
     
-    public SubtractDateTest() {
+    public AgeLibraryTest() {
     }
     
     @BeforeClass
@@ -39,27 +39,17 @@ public class SubtractDateTest {
     }
 
     /**
-     * Test of subtract method, of class SubtractDate.
+     * Test of subtract method, of class AgeLibrary.
      */
     @Test
-    public void testSubtract() {
+    public void testSubtract(int GMT) {
         System.out.println("subtract");
-        SubtractDate instance = new SubtractDate();
-        Date expResult = null;
+        AgeLibrary instance = new AgeLibrary();
+        Date expDate=util.Date: Thu May 20 19:01:46 GMT-05:00 2004
+
+//Date expResult = null;
         Date result = instance.subtract();
         assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
-    }
-
-    /**
-     * Test of main method, of class SubtractDate.
-     */
-    @Test
-    public void testMain() {
-        System.out.println("main");
-        String[] args = null;
-        SubtractDate.main(args);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }

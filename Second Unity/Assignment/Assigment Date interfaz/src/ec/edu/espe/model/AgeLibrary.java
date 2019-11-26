@@ -1,46 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package ec.edu.espe.SubtractDate;
-
+package ec.edu.espe.model;
 import java.text.DateFormat;
 import java.util.Date;
-import java.util.Scanner;
 
-/**;
- *
- * @author Usuario
- */
-public class SubtractDate {
+public class AgeLibrary {
 
-    public Date subtract() {
-        Scanner enter = new Scanner(System.in);
-        try {
-            
-        
-            
-        
+    public String restar_fecha(String fe_nacimiento) {
 
-        String fechaInicio = "17/09/2000";
-//        System.out.println("Enter your bith day: ");
-//        fechaInicio=enter.next();
-        
-        String fechaActual;// = "21/11/2019";
-        /**
-         * Esta fecha es tomada como ejmplo
-         */
-        Date date = new Date();
-        /**
-         * Date date en esta variable el codigo toma la fecha del sistema
-         */
+        String fechaInicio = fe_nacimiento;//"22/04/1988";
+        String fechaActual = "";
+        Date date = new Date();//Toma la fecha del sistema
         DateFormat df = DateFormat.getDateInstance(DateFormat.MEDIUM);
         fechaActual = df.format(date);
         String[] aFechaIng = fechaInicio.split("/");
-        /**
-         * "/" En este caso se usa para la separacion de los terminos
-         */
         Integer diaInicio = Integer.parseInt(aFechaIng[0]);
         Integer mesInicio = Integer.parseInt(aFechaIng[1]);
         Integer anioInicio = Integer.parseInt(aFechaIng[2]);
@@ -55,26 +26,26 @@ public class SubtractDate {
         System.out.println(anioActual);
         int b = 0;
         int day = 0;
-        int months_= 0;
+        int mes = 0;
         int year = 0;
         int months = 0;
-        months_ = mesInicio - 1;
-        if (months_ == 2) {
+        mes = mesInicio - 1;
+        if (mes == 2) {
             if ((anioActual % 4 == 0) && ((anioActual % 100 != 0) || (anioActual % 400 == 0))) {
                 b = 29;
             } else {
                 b = 28;
             }
-        } else if (months_ <= 7) {
-            if (months_ == 0) {
+        } else if (mes <= 7) {
+            if (mes == 0) {
                 b = 31;
-            } else if (months_ % 2 == 0) {
+            } else if (mes % 2 == 0) {
                 b = 30;
             } else {
                 b = 31;
             }
-        } else if (months_ > 7) {
-            if (months_ % 2 == 0) {
+        } else if (mes > 7) {
+            if (mes % 2 == 0) {
                 b = 31;
             } else {
                 b = 30;
@@ -82,8 +53,7 @@ public class SubtractDate {
         }
         if ((anioInicio > anioActual) || (anioInicio == anioActual && mesInicio > mesActual)
                 || (anioInicio == anioActual && mesInicio == mesActual && diaInicio > diaActual)) {
-            System.out.println("Esa fecha no existe no sea pendenjo");
-            System.out.println("Esa fecha es muy avanzada ");
+            System.out.println("La fecha de inicio debe ser anterior a la fecha Actual");
         } else {
             if (mesInicio <= mesActual) {
                 year = anioActual - anioInicio;
@@ -110,18 +80,14 @@ public class SubtractDate {
             }
         }
 
-        System.out.println("Your years is: " + year);
-        System.out.println("Your months is: " + months);
-        System.out.println("Your day is: " + day);
-        return date;
-        } catch (Exception e) {
-        }
-        return null;
+        System.out.println("Años: " + year);
+        System.out.println("Meses: " + months);
+        System.out.println("Días: " + day);
+        return "Years="+year+"Months="+months+"Day="+day;
 
     }
-        
+
     public static void main(String[] args) {
-        new SubtractDate().subtract();
+        //new restar_fechas().restar_fecha();
     }
-    
 }
