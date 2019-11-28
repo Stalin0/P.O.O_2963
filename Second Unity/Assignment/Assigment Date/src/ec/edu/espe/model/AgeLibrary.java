@@ -7,7 +7,7 @@ public class AgeLibrary {
     public String restar_fecha(String fe_nacimiento) {
 
         String fechaInicio = fe_nacimiento;//"22/04/1988";
-        String fechaActual = "";
+        String fechaActual;// = "";
         Date date = new Date();//Toma la fecha del sistema
         DateFormat df = DateFormat.getDateInstance(DateFormat.MEDIUM);
         fechaActual = df.format(date);
