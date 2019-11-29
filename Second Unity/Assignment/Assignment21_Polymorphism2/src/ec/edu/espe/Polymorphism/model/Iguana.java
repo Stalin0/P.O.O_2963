@@ -9,7 +9,7 @@ package ec.edu.espe.Polymorphism.model;
  *
  * @author STALIN RIVERA
  */
-public class Iguana extends Reptil{
+public abstract class Iguana extends Reptil{
    private int age; 
 
     @Override

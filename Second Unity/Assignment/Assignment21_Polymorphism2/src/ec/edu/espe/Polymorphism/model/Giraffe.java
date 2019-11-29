@@ -9,7 +9,7 @@ package ec.edu.espe.Polymorphism.model;
  *
  * @author STALIN RIVERA
  */
-public class Giraffe extends Mamal{
+public abstract class Giraffe extends Mamal{
     private int tailLenght; 
 
     public Giraffe(int tailLenght, boolean IsBreastFeeding, int id, String name, String gender, float weight, Cage cage) {

@@ -9,7 +9,7 @@ package ec.edu.espe.Polymorphism.model;
  *
  * @author STALIN RIVERA
  */
-public class Turtle extends Reptil{
+public abstract class Turtle extends Reptil{
     
     private int age;
 

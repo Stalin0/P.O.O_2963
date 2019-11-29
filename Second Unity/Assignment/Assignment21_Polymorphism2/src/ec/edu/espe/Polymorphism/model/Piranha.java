@@ -9,7 +9,7 @@ package ec.edu.espe.Polymorphism.model;
  *
  * @author STALIN RIVERA
  */
-public class Piranha extends Fish{
+public abstract class Piranha extends Fish{
     private int size;
 
     @Override

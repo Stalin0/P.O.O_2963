@@ -9,7 +9,7 @@ package ec.edu.espe.Polymorphism.model;
  *
  * @author STALIN RIVERA
  */
-public class Anphibian extends Animal{
+public abstract class Anphibian extends Animal{
     
     private boolean liveinWater;
 

@@ -9,13 +9,17 @@ package ec.edu.espe.Polymorphism.model;
  *
  * @author Labs-DCCO
  */
-public class Animal {
+public abstract class Animal {
 
     private int id;
     private String name;
     private String gender;
     private float weight;
     private Cage cage;
+    
+    public abstract String getData();
+    
+
 
     
     

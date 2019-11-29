@@ -9,7 +9,7 @@ package ec.edu.espe.Polymorphism.model;
  *
  * @author STALIN RIVERA
  */
-public class Monkey extends Mamal {
+public abstract class Monkey extends Mamal {
 
     private int tailLength;
 

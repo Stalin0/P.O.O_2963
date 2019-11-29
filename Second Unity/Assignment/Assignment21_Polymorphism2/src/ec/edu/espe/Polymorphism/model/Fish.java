@@ -9,7 +9,7 @@ package ec.edu.espe.Polymorphism.model;
  *
  * @author STALIN RIVERA
  */
-public class Fish extends Animal{
+public abstract class Fish extends Animal{
 
     public Fish(int id, String name, String gender, float weight, Cage cage) {
         super(id, name, gender, weight, cage);

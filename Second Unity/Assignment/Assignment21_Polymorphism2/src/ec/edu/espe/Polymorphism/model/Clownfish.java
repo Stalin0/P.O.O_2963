@@ -9,7 +9,7 @@ package ec.edu.espe.Polymorphism.model;
  *
  * @author STALIN RIVERA
  */
-public class Clownfish extends Fish{
+public abstract class Clownfish extends Fish{
     
     private int size;
 

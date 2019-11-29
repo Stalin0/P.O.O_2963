@@ -9,7 +9,7 @@ package ec.edu.espe.Polymorphism.model;
  *
  * @author STALIN RIVERA
  */
-public class Mamal extends Animal {
+public abstract class Mamal extends Animal {
 
     private boolean IsBreastFeeding;
 
