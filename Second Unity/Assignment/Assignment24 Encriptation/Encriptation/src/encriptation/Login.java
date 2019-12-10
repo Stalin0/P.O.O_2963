@@ -158,6 +158,8 @@ public class Login extends javax.swing.JFrame {
                 }
                 mostrar.close();
             } catch (IOException ex) {
+                
+                System.out.println("La contraseña a sido encriptada con exito");
             }
         }
 

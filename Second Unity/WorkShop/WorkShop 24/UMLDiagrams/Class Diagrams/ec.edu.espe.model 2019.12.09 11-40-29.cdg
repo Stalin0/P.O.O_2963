@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="ec.edu.espe.model">
+  <ClassDiagramComponents>
+    <Class name="A" package="ec.edu.espe.model" visibility="public" xPosition="478.0" yPosition="152.0">
+      <Fields>
+        <Field name="b" type="B" visibility="private"/>
+        <Field name="f" type="ArrayList&lt;F&gt;" visibility="private"/>
+        <Field name="g" type="ArrayList&lt;G&gt;" visibility="private"/>
+        <Field name="h" type="ArrayList&lt;H&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="B" package="ec.edu.espe.model" visibility="public" xPosition="-5.0" yPosition="190.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="C" package="ec.edu.espe.model" visibility="public" isAbstract="true" xPosition="965.0" yPosition="134.0">
+      <Fields>
+        <Field name="d" type="D" visibility="package"/>
+        <Field name="e" type="E" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="D" name="d"/>
+          <Argument type="E" name="e"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getD" returnType="D" visibility="public"/>
+        <Method name="setD" returnType="void" visibility="public">
+          <Argument type="D" name="d"/>
+        </Method>
+        <Method name="getE" returnType="E" visibility="public"/>
+        <Method name="setE" returnType="void" visibility="public">
+          <Argument type="E" name="e"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="D" package="ec.edu.espe.model" visibility="public" xPosition="1189.0" yPosition="240.0">
+      <Fields>
+        <Field name="a" type="int" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="int" name="a"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="E" package="ec.edu.espe.model" visibility="public" xPosition="1226.0" yPosition="503.0">
+      <Fields>
+        <Field name="b" type="float" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="m" returnType="G" visibility="public">
+          <Argument type="H" name="h"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="F" package="ec.edu.espe.model" visibility="public" isAbstract="true" xPosition="873.0" yPosition="645.0">
+      <Fields>
+        <Field name="k" type="K" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="D" name="d"/>
+          <Argument type="E" name="e"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="G" package="ec.edu.espe.model" visibility="public" xPosition="478.0" yPosition="707.0">
+      <Fields>
+        <Field name="i" type="I" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="I" name="i"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="H" package="ec.edu.espe.model" visibility="public" xPosition="501.0" yPosition="401.0">
+      <Fields>
+        <Field name="j" type="J" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="I" package="ec.edu.espe.model" visibility="public" xPosition="68.0" yPosition="739.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="J" package="ec.edu.espe.model" visibility="public" xPosition="320.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="K" package="ec.edu.espe.model" visibility="public" xPosition="1147.0" yPosition="726.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="M" package="ec.edu.espe.model" visibility="public" xPosition="920.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="g" source="ec.edu.espe.model.A" target="ec.edu.espe.model.G" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;G&gt;"/>
+    <HasRelation name="b" source="ec.edu.espe.model.A" target="ec.edu.espe.model.B" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="d" source="ec.edu.espe.model.C" target="ec.edu.espe.model.D" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="ec.edu.espe.model.F" target="ec.edu.espe.model.C"/>
+    <UseRelation source="ec.edu.espe.model.E" target="ec.edu.espe.model.H" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="h" source="ec.edu.espe.model.A" target="ec.edu.espe.model.H" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;H&gt;"/>
+    <HasRelation name="k" source="ec.edu.espe.model.F" target="ec.edu.espe.model.K" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="f" source="ec.edu.espe.model.A" target="ec.edu.espe.model.F" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;F&gt;"/>
+    <HasRelation name="e" source="ec.edu.espe.model.C" target="ec.edu.espe.model.E" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="j" source="ec.edu.espe.model.H" target="ec.edu.espe.model.J" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="ec.edu.espe.model.C" target="ec.edu.espe.model.D" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="ec.edu.espe.model.C" target="ec.edu.espe.model.E" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="i" source="ec.edu.espe.model.G" target="ec.edu.espe.model.I" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
