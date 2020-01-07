@@ -8,6 +8,7 @@ package ec.edu.espe.FastPay.view;
 import java.awt.print.Printable;
 import java.awt.print.PrinterException;
 import java.awt.print.PrinterJob;
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 /**
@@ -23,6 +24,9 @@ public class frmImpresion extends javax.swing.JFrame {
      * Creates new form frmImpresion
      */
     public frmImpresion() {
+        setIconImage(new ImageIcon(getClass().getResource("/ec/edu/espe/imagenes/logo.png")).getImage());
+        setLocationRelativeTo(null);
+        setResizable(false);
         initComponents();
     }
 

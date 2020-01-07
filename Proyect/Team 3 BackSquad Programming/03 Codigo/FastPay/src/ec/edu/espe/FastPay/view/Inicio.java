@@ -5,6 +5,7 @@ import java.awt.Image;
 import java.awt.Toolkit;
 import javax.swing.ImageIcon;
 
+
 public final class Inicio extends javax.swing.JFrame {
 
     /**
@@ -13,16 +14,17 @@ public final class Inicio extends javax.swing.JFrame {
     Cargar hilo;
 
     public Inicio() {
-        initComponents();
         setIconImage(new ImageIcon(getClass().getResource("/ec/edu/espe/imagenes/logo.png")).getImage());
         setLocationRelativeTo(null);
         setResizable(false);
+        initComponents();
+
         iniciar();
 
     }
 
     public Image getIconImageH() {
-        Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("C:/Users/Lenovo/Desktop/Proyecto-master/03 Codigo/FastPay/src/ec/edu/espe/imagenes/FastPay.png"));
+        Image retValue = Toolkit.getDefaultToolkit().getImage(ClassLoader.getSystemResource("FastPay.png"));
         return retValue;
     }
 

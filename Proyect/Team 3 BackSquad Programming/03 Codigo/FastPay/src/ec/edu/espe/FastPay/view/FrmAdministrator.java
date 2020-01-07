@@ -5,6 +5,8 @@
  */
 package ec.edu.espe.FastPay.view;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Usuario
@@ -16,6 +18,9 @@ public class FrmAdministrator extends javax.swing.JFrame {
      */
     public FrmAdministrator() {
         initComponents();
+        setIconImage(new ImageIcon(getClass().getResource("/ec/edu/espe/imagenes/logo.png")).getImage());
+        setLocationRelativeTo(null);
+        setResizable(false);
     }
 
     /**
@@ -61,6 +66,11 @@ public class FrmAdministrator extends javax.swing.JFrame {
 
         btnCompras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/iconos/Compras.png"))); // NOI18N
         btnCompras.setText("Compras");
+        btnCompras.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnComprasActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnCompras, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, -1, -1));
 
         btnVentas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/iconos/Ventas.png"))); // NOI18N
@@ -69,6 +79,11 @@ public class FrmAdministrator extends javax.swing.JFrame {
 
         btnDetalleVenta.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/iconos/Aceptar.png"))); // NOI18N
         btnDetalleVenta.setText("Detalle Ventas");
+        btnDetalleVenta.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDetalleVentaActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnDetalleVenta, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 140, -1, -1));
 
         btnProductos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/iconos/Productos.png"))); // NOI18N
@@ -81,10 +96,20 @@ public class FrmAdministrator extends javax.swing.JFrame {
 
         btnFactura.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/iconos/Inventario.png"))); // NOI18N
         btnFactura.setText("Factura");
+        btnFactura.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnFacturaActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnFactura, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, -1, -1));
 
         btnUsuarios.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/iconos/login/usuario.png"))); // NOI18N
         btnUsuarios.setText("Usuarios");
+        btnUsuarios.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnUsuariosActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnUsuarios, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, -1, -1));
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 204));
@@ -159,6 +184,32 @@ public class FrmAdministrator extends javax.swing.JFrame {
     private void lblAgregarUsuarioMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_lblAgregarUsuarioMouseClicked
         
     }//GEN-LAST:event_lblAgregarUsuarioMouseClicked
+
+    private void btnComprasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnComprasActionPerformed
+        // TODO add your handling code here:
+        FrmProducts frmproduct = new FrmProducts();
+        frmproduct.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnComprasActionPerformed
+
+    private void btnDetalleVentaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDetalleVentaActionPerformed
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_btnDetalleVentaActionPerformed
+
+    private void btnUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuariosActionPerformed
+        // TODO add your handling code here:
+        FrmUser frmuser= new FrmUser();
+        frmuser.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnUsuariosActionPerformed
+
+    private void btnFacturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFacturaActionPerformed
+        // TODO add your handling code here:
+        frmImpresion frmfactura = new frmImpresion();
+        frmfactura.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnFacturaActionPerformed
 
     /**
      * @param args the command line arguments

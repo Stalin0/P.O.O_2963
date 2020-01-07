@@ -20,6 +20,7 @@ public class FrmUser extends javax.swing.JFrame {
      */
     public FrmUser() {
         initComponents();
+        
         setIconImage(new ImageIcon(getClass().getResource("/ec/edu/espe/imagenes/logo.png")).getImage());
         this.TablaUser.setModel(modelo);
         this.modelo.addColumn("ID");

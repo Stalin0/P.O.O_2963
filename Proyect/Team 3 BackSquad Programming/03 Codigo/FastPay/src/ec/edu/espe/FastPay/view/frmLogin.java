@@ -156,7 +156,7 @@ public class frmLogin extends javax.swing.JFrame {
         UserController userC = new UserController();
         User user = userC.Validate(userName, password);
 
-        if ((userName.equals("BackSquad")) && (password.equals("13579admin"))) {
+        if ((userName.equals("as")) && (password.equals("13"))) {
             JOptionPane.showMessageDialog(this, "¡Bienvenido colega!");
             nombre = "Administrador";
             FrmAdministrator administrator = new FrmAdministrator();
