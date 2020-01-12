@@ -198,9 +198,9 @@ public class frmLogin extends javax.swing.JFrame {
 
     private void btnNewUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnNewUserActionPerformed
         // TODO add your handling code here:
-        frmNewUser newU = new frmNewUser();
-        newU.setVisible(true);
-        this.setVisible(false);
+//        frmNewUser newU = new frmNewUser();
+//        newU.setVisible(true);
+//        this.setVisible(false);
     }//GEN-LAST:event_btnNewUserActionPerformed
 
     /**

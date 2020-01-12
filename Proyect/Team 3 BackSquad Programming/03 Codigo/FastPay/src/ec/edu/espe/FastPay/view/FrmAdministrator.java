@@ -199,7 +199,7 @@ public class FrmAdministrator extends javax.swing.JFrame {
 
     private void btnUsuariosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsuariosActionPerformed
         // TODO add your handling code here:
-        FrmUser frmuser= new FrmUser();
+        frmNewUser frmuser= new frmNewUser();
         frmuser.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnUsuariosActionPerformed
