@@ -59,6 +59,11 @@ public class FrmProducts extends javax.swing.JFrame {
 
         cmbxBar.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Aceite", "Aderezos", "Avena", "Azúcar", "Café", "Cereales", "Gelatinas", "Harina", "Sal", "Mayonesa", "Katsup" }));
         cmbxBar.setToolTipText("Seleccione el producto que desea comprar");
+        cmbxBar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                cmbxBarActionPerformed(evt);
+            }
+        });
         getContentPane().add(cmbxBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, 140, 30));
 
         cmbxDiary.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Leche condensada", "Leche", "Yogurt", "Mantequilla", "Queso", " " }));
@@ -155,6 +160,10 @@ public class FrmProducts extends javax.swing.JFrame {
     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExitActionPerformed
         System.exit(0);
     }//GEN-LAST:event_btnExitActionPerformed
+
+    private void cmbxBarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cmbxBarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_cmbxBarActionPerformed
 
     /**
      * @param args the command line arguments

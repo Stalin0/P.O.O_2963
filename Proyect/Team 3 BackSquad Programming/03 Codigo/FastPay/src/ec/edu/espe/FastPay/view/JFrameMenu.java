@@ -33,26 +33,15 @@ public class JFrameMenu extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        verUser = new javax.swing.JButton();
         btnProducts = new javax.swing.JButton();
         btnBill = new javax.swing.JButton();
         btnExit = new javax.swing.JButton();
-        txtUsers = new javax.swing.JLabel();
         txtProducts = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         labBack = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        verUser.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/imagenes/user.jpg"))); // NOI18N
-        verUser.setToolTipText("Imagen que inidica que se está en el menú del cliente");
-        verUser.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                verUserActionPerformed(evt);
-            }
-        });
-        getContentPane().add(verUser, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 150, 230, 250));
 
         btnProducts.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/imagenes/dining-room.png"))); // NOI18N
         btnProducts.setToolTipText("Pulse aquí para revisar los productos de la tienda");
@@ -61,10 +50,15 @@ public class JFrameMenu extends javax.swing.JFrame {
                 btnProductsActionPerformed(evt);
             }
         });
-        getContentPane().add(btnProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 100, 145, 96));
+        getContentPane().add(btnProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, 145, 96));
 
         btnBill.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/imagenes/dinero.png"))); // NOI18N
         btnBill.setToolTipText("Pulse aquí para revisar su total a pagar");
+        btnBill.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBillActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnBill, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 280, 135, 115));
 
         btnExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/imagenes/exit.png"))); // NOI18N
@@ -76,17 +70,11 @@ public class JFrameMenu extends javax.swing.JFrame {
         });
         getContentPane().add(btnExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 410, 70, 50));
 
-        txtUsers.setFont(new java.awt.Font("Tw Cen MT", 1, 48)); // NOI18N
-        txtUsers.setForeground(new java.awt.Color(51, 51, 51));
-        txtUsers.setText("Usuario");
-        txtUsers.setToolTipText("Título");
-        getContentPane().add(txtUsers, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 90, -1, -1));
-
         txtProducts.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         txtProducts.setForeground(new java.awt.Color(240, 240, 240));
         txtProducts.setText("1. Productos");
         txtProducts.setToolTipText("Índice que indica los productos");
-        getContentPane().add(txtProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 130, 170, -1));
+        getContentPane().add(txtProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 170, -1));
 
         jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(240, 240, 240));
@@ -101,10 +89,6 @@ public class JFrameMenu extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void verUserActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_verUserActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_verUserActionPerformed
-
     private void btnProductsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProductsActionPerformed
         FrmProducts product = new FrmProducts();
         product.setVisible(true);
@@ -115,6 +99,10 @@ public class JFrameMenu extends javax.swing.JFrame {
         // TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_btnExitActionPerformed
+
+    private void btnBillActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBillActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnBillActionPerformed
 
     /**
      * @param args the command line arguments
@@ -158,7 +146,5 @@ public class JFrameMenu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel labBack;
     private javax.swing.JLabel txtProducts;
-    private javax.swing.JLabel txtUsers;
-    private javax.swing.JButton verUser;
     // End of variables declaration//GEN-END:variables
 }

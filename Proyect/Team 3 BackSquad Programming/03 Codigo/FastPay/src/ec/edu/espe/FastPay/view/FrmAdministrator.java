@@ -88,6 +88,11 @@ public class FrmAdministrator extends javax.swing.JFrame {
 
         btnProductos.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/iconos/Productos.png"))); // NOI18N
         btnProductos.setText("Productos");
+        btnProductos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnProductosActionPerformed(evt);
+            }
+        });
         getContentPane().add(btnProductos, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, -1, -1));
 
         btnProveedores.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/iconos/Proveedores.png"))); // NOI18N
@@ -210,6 +215,13 @@ public class FrmAdministrator extends javax.swing.JFrame {
         frmfactura.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnFacturaActionPerformed
+
+    private void btnProductosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProductosActionPerformed
+        // TODO add your handling code here:
+        Ventana ventana = new Ventana();
+        ventana.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_btnProductosActionPerformed
 
     /**
      * @param args the command line arguments
