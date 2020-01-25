@@ -3,35 +3,36 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/FrmUser.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/User.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Proveedores.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/frmImpresion.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/Provider.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Seguridad.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Tienda.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/Article.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/imgTabla.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/Ventana.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/UserController.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/Sale.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Cash.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/Entry.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/Library/FileLibrary.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/Inicio.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/frmLogin.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/Administrator.java</file>
             <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Limpiar_txt.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Check.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Producto.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Cargar.java</file>
             <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/FastPay.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/frmNewUser.java</file>
             <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Factura.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/Library/PasswordLibrary.java</file>
             <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/JFrameMenu.java</file>
-            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Proceso.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/Sale.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/Ventana.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/FrmProducts.java</file>
             <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/FrmAdministrator.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Tienda.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Seguridad.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/frmLogin.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/FrmUser.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/Entry.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Proveedores.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/frmNewUser.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Proceso.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Cash.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/Provider.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/Inicio.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Cargar.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/imgTabla.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/Administrator.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/User.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/view/frmImpresion.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/Article.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Check.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/Library/FileLibrary.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/model/Producto.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/controller/UserController.java</file>
+            <file>file:/C:/Users/Usuario/Desktop/P.O.O_2963/P.O.O_2963/Proyect/Team%203%20BackSquad%20Programming/03%20Codigo/FastPay/src/ec/edu/espe/FastPay/Library/PasswordLibrary.java</file>
         </group>
     </open-files>
 </project-private>
