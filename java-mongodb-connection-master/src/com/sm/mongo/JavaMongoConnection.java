@@ -1,16 +1,14 @@
-package ec.edu.espe.FastPay.view;
+package com.sm.mongo;
+
+import java.util.List;
 
 import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
-import ec.edu.espe.FastPay.controller.Entry;
-import java.util.List;
-import java.util.Scanner;
 
-public class FastPay {
-    public static void main(String[] args) {
-        Inicio inicio = new Inicio();
-        inicio.setVisible(true);
-        //Connecting With Server Please add the external jar file first
+public class JavaMongoConnection {
+	public static void main(String args[])
+	{
+		//Connecting With Server Please add the external jar file first
 				MongoClient mongoClient = new MongoClient( "localhost" , 27017 );
 				System.out.println("server connection successfully done");
 				
@@ -28,8 +26,8 @@ public class FastPay {
 		        mongoClient.dropDatabase("newDb");
 		        dbNames=mongoClient.getDatabaseNames();
 		        System.out.println(dbNames);
-    }
-       
-        }
-    
+		
+		
+	}
 
+}
