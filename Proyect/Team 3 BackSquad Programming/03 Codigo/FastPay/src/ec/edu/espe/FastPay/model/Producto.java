@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @author David
  */
 public class Producto {
-    
+    private int cantidad;
     private int codigo;
     private String nombre;
     private double precio;
@@ -20,15 +20,34 @@ public class Producto {
 
     public Producto(){}
     
-    public Producto(int codigo, String nombre, double precio, Object descripcion){
+    public Producto(int cantidad, int codigo, String nombre, double precio, Object descripcion){
+        this.cantidad = cantidad;
         this.codigo = codigo;
         this.nombre = nombre;
         this.precio = precio;
         this.descripcion = descripcion;
     }
+
+    public Producto(int leerCodigo, String leerNombre, double leerPrecio, Object leerDescripcion) {
+      this.codigo = codigo;
+        this.nombre = nombre;
+        this.precio = precio;
+        this.descripcion = descripcion;  
+    }
+
+    
+    
+    public int getCantidad() {
+        return cantidad;
+    }
+
     /**
      * @return the codigo
      */
+    public void setCantidad(int cantidad) {
+        this.cantidad = cantidad;
+    }
+
     public int getCodigo() {
         return codigo;
     }
@@ -57,6 +76,7 @@ public class Producto {
     /**
      * @return the precio
      */
+   
     public double getPrecio() {
         return precio;
     }

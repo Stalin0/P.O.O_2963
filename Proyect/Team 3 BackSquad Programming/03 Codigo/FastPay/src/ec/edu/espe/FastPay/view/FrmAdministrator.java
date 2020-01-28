@@ -211,14 +211,14 @@ public class FrmAdministrator extends javax.swing.JFrame {
 
     private void btnFacturaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnFacturaActionPerformed
         // TODO add your handling code here:
-        frmImpresion frmfactura = new frmImpresion();
+        Factura frmfactura = new Factura();
         frmfactura.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnFacturaActionPerformed
 
     private void btnProductosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProductosActionPerformed
         // TODO add your handling code here:
-        Ventana ventana = new Ventana();
+        Products ventana = new Products();
         ventana.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnProductosActionPerformed

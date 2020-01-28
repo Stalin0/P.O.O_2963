@@ -34,11 +34,16 @@ public class JFrameMenu extends javax.swing.JFrame {
     private void initComponents() {
 
         btnProducts = new javax.swing.JButton();
-        btnBill = new javax.swing.JButton();
         btnExit = new javax.swing.JButton();
         txtProducts = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
         labBack = new javax.swing.JLabel();
+        txtProducts1 = new javax.swing.JLabel();
+        txtProducts2 = new javax.swing.JLabel();
+        txtProducts3 = new javax.swing.JLabel();
+        txtProducts4 = new javax.swing.JLabel();
+        txtProducts5 = new javax.swing.JLabel();
+        txtProducts6 = new javax.swing.JLabel();
+        txtProducts7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -50,16 +55,7 @@ public class JFrameMenu extends javax.swing.JFrame {
                 btnProductsActionPerformed(evt);
             }
         });
-        getContentPane().add(btnProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, 145, 96));
-
-        btnBill.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/imagenes/dinero.png"))); // NOI18N
-        btnBill.setToolTipText("Pulse aquí para revisar su total a pagar");
-        btnBill.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBillActionPerformed(evt);
-            }
-        });
-        getContentPane().add(btnBill, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 280, 135, 115));
+        getContentPane().add(btnProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 145, 96));
 
         btnExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/imagenes/exit.png"))); // NOI18N
         btnExit.setToolTipText("Pulse aquí para salir del sistema");
@@ -74,35 +70,66 @@ public class JFrameMenu extends javax.swing.JFrame {
         txtProducts.setForeground(new java.awt.Color(240, 240, 240));
         txtProducts.setText("1. Productos");
         txtProducts.setToolTipText("Índice que indica los productos");
-        getContentPane().add(txtProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 10, 170, -1));
-
-        jLabel3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(240, 240, 240));
-        jLabel3.setText("2. Factura");
-        jLabel3.setToolTipText("Índice que indica la realización de la factura");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 320, -1, -1));
+        getContentPane().add(txtProducts, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 170, -1));
 
         labBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ec/edu/espe/imagenes/FondoTienda.jpg"))); // NOI18N
         labBack.setText("jLabel1");
         getContentPane().add(labBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(-220, 0, 1210, 490));
 
+        txtProducts1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        txtProducts1.setForeground(new java.awt.Color(240, 240, 240));
+        txtProducts1.setText("1. Productos");
+        txtProducts1.setToolTipText("Índice que indica los productos");
+        getContentPane().add(txtProducts1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, 170, -1));
+
+        txtProducts2.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        txtProducts2.setForeground(new java.awt.Color(240, 240, 240));
+        txtProducts2.setText("1. Productos");
+        txtProducts2.setToolTipText("Índice que indica los productos");
+        getContentPane().add(txtProducts2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 170, -1));
+
+        txtProducts3.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        txtProducts3.setForeground(new java.awt.Color(240, 240, 240));
+        txtProducts3.setText("1. Productos");
+        txtProducts3.setToolTipText("Índice que indica los productos");
+        getContentPane().add(txtProducts3, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 170, -1));
+
+        txtProducts4.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        txtProducts4.setForeground(new java.awt.Color(240, 240, 240));
+        txtProducts4.setText("1. Productos");
+        txtProducts4.setToolTipText("Índice que indica los productos");
+        getContentPane().add(txtProducts4, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 170, -1));
+
+        txtProducts5.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        txtProducts5.setForeground(new java.awt.Color(240, 240, 240));
+        txtProducts5.setText("1. Productos");
+        txtProducts5.setToolTipText("Índice que indica los productos");
+        getContentPane().add(txtProducts5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 170, -1));
+
+        txtProducts6.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        txtProducts6.setForeground(new java.awt.Color(240, 240, 240));
+        txtProducts6.setText("1. Productos");
+        txtProducts6.setToolTipText("Índice que indica los productos");
+        getContentPane().add(txtProducts6, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 170, -1));
+
+        txtProducts7.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
+        txtProducts7.setForeground(new java.awt.Color(240, 240, 240));
+        txtProducts7.setText("1. Productos");
+        txtProducts7.setToolTipText("Índice que indica los productos");
+        getContentPane().add(txtProducts7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 170, -1));
+
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnProductsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProductsActionPerformed
-        FrmProducts product = new FrmProducts();
+        Products product = new Products();
         product.setVisible(true);
-        dispose();
     }//GEN-LAST:event_btnProductsActionPerformed
 
     private void btnExitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnExitActionPerformed
         // TODO add your handling code here:
         System.exit(0);
     }//GEN-LAST:event_btnExitActionPerformed
-
-    private void btnBillActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBillActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnBillActionPerformed
 
     /**
      * @param args the command line arguments
@@ -140,11 +167,16 @@ public class JFrameMenu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton btnBill;
     private javax.swing.JButton btnExit;
     private javax.swing.JButton btnProducts;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel labBack;
     private javax.swing.JLabel txtProducts;
+    private javax.swing.JLabel txtProducts1;
+    private javax.swing.JLabel txtProducts2;
+    private javax.swing.JLabel txtProducts3;
+    private javax.swing.JLabel txtProducts4;
+    private javax.swing.JLabel txtProducts5;
+    private javax.swing.JLabel txtProducts6;
+    private javax.swing.JLabel txtProducts7;
     // End of variables declaration//GEN-END:variables
 }
